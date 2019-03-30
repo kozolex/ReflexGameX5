@@ -6,7 +6,7 @@ int led = 0, ledBefore = 20;
 float timeGameAll, timeRecord = 99000;
 int timeAverage;
 
-int countRound = 5;
+int countRound = 50;
 unsigned long  timeGameStart, timeGameEnd, timePointStart, timePointEnd ;
 bool pointDecision = false;
 short int i, point = 0;
