@@ -1,5 +1,7 @@
-#include <Wire.h>
 #include <LiquidCrystal_I2C.h>
+
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h> //https://github.com/junwha0511/LiquidCrystal_I2C_Hangul
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
 int Lampka = 0, LampkaPoprzednia = 20;
